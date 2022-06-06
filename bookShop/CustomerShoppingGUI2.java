@@ -202,6 +202,7 @@ public class CustomerShoppingGUI2 extends javax.swing.JFrame {
 
     private void confirmBasketButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_confirmBasketButtonMouseClicked
         shopping_basket.confirmBasket();
+	shopping_basket.emptyTheBasket();
     }//GEN-LAST:event_confirmBasketButtonMouseClicked
 
     private void jLabel31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel31MouseClicked
